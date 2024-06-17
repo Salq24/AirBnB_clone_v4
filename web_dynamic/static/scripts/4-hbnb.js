@@ -50,4 +50,6 @@ document.ready(function() {
 		},
 		dataType: "json",
 	});
+
+    $("section.places").append(template);
 });
